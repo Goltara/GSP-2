@@ -1,0 +1,13 @@
+<aspectj>
+<aspects>
+<aspect name="com.geoskola.gsp.klase.TockaDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.geoskola.gsp.klase.TipTockeDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.geoskola.gsp.klase.TipTockeDataOnDemand_Roo_Configurable"/>
+<aspect name="com.geoskola.gsp.klase.TipTockeIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.geoskola.gsp.klase.TipTockeIntegrationTest_Roo_Configurable"/>
+<aspect name="com.geoskola.gsp.klase.TockaIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.geoskola.gsp.klase.TockaIntegrationTest_Roo_Configurable"/>
+<aspect name="com.geoskola.gsp.klase.TockaDataOnDemand_Roo_Configurable"/>
+</aspects>
+</aspectj>
+

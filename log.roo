@@ -1,0 +1,60 @@
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-21 14:09:20
+project --topLevelPackage com.geoskola.gsp --projectName GSP --java 7 --packaging JAR
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-21 14:09:21
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-21 14:17:54
+hint 
+jpa setup --provider DATANUCLEUS --database POSTGRES
+hint
+entity jpa --class com.geoskola.gsp.klase.Tocka ----testAutomatically 
+hint
+field number --fieldName h --type java.lang.Double
+field number --fieldName x --type java.lang.Double
+field number --fieldName y --type java.lang.Double
+hint
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-21 14:27:10
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-21 14:27:22
+hint
+field string --fieldName tockaID --class ~.klase.Tocka 
+hint
+hint entitites
+hint entities
+entity jpa --class com.geoskola.gsp.TipTocke --testAutomatically 
+entity jpa --class com.geoskola.gsp.klase.TipTocke --testAutomatically 
+hint field
+hint
+hint fields
+field number --fieldName id --type int 
+field number --fieldName tip --type int --class ~.klase.Tocka
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-21 14:41:38
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-21 14:41:49
+field string --fieldName stabilizacija --class ~.klase.TipTocke
+hint
+hint topics
+hint entities
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-21 14:49:18
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-21 14:49:31
+entity jpa --class linija
+entity jpa --class ~.klase.linija 
+field other --fieldName tocka1 --type ~.klase.Tocka
+field other --fieldName tocka2 --type ~.klase.Tocka
+field string --fieldName description --class ~.klase.Linija
+hint web mvc
+download status
+entity jpa --class ~.klase.Tocka
+field number --fieldName X --type java.lang.Double
+field number --fieldName Y --type java.lang.Double
+field number --fieldName H --type java.lang.Double
+field number --fieldName tip --type int
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-21 15:06:07
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-21 15:06:19
+exit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-21 15:07:42
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-21 15:07:53
+field string --fieldName tockaID --class ~.klase.Tocka 
+// [failed] field set --fieldName tip --type ~.klase.TipTocke
+field set --fieldName tip --type ~.klase.TipTocke
+field reference --fieldName tip --type ~.klase.TipTocke
+// [failed] perform tests
+// [failed] perform eclipse
+web mvc setup
+web mvc controller --class ~.controller.Tocke

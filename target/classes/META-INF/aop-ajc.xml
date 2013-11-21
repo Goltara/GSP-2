@@ -1,0 +1,20 @@
+<aspectj>
+<aspects>
+<aspect name="com.geoskola.gsp.klase.Linija_Roo_Configurable"/>
+<aspect name="com.geoskola.gsp.klase.Tocka_Roo_ToString"/>
+<aspect name="com.geoskola.gsp.klase.Linija_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.geoskola.gsp.klase.TipTocke_Roo_Jpa_Entity"/>
+<aspect name="com.geoskola.gsp.klase.Tocka_Roo_Configurable"/>
+<aspect name="com.geoskola.gsp.klase.Tocka_Roo_JavaBean"/>
+<aspect name="com.geoskola.gsp.klase.Linija_Roo_JavaBean"/>
+<aspect name="com.geoskola.gsp.klase.Linija_Roo_Jpa_Entity"/>
+<aspect name="com.geoskola.gsp.klase.Tocka_Roo_Jpa_Entity"/>
+<aspect name="com.geoskola.gsp.klase.TipTocke_Roo_Configurable"/>
+<aspect name="com.geoskola.gsp.klase.TipTocke_Roo_JavaBean"/>
+<aspect name="com.geoskola.gsp.klase.TipTocke_Roo_ToString"/>
+<aspect name="com.geoskola.gsp.klase.Tocka_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.geoskola.gsp.klase.Linija_Roo_ToString"/>
+<aspect name="com.geoskola.gsp.klase.TipTocke_Roo_Jpa_ActiveRecord"/>
+</aspects>
+</aspectj>
+
